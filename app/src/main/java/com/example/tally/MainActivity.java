@@ -3,7 +3,7 @@ package com.example.tally;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+/*记账本*/
 public class MainActivity extends AppCompatActivity {
 
     @Override
