@@ -34,18 +34,32 @@
         android:layout_height="match_parent"
         android:layout_below="@id/main_top_layout"
         android:padding="10dp"
-        android:divider="null"
+        android:divider="@null"
         android:dividerHeight="6dp"
         android:scrollbars="none"
         android:background="@color/grey_f3f3f3"/>
-    <Button
-        android:layout_width="100dp"
+    <ImageButton
+        android:id="@+id/main_btn_more"
+        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="记一笔"
+        android:src="@mipmap/more"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:background="@color/black"/>
-
+        android:layout_margin="20dp"
+        android:background="@drawable/main_morebtn_bg"/>
+    <Button
+        android:id="@+id/main_btn_edit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/main_recordbtn_bg"
+        android:layout_toLeftOf="@id/main_btn_more"
+        android:text="@string/editone"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@id/main_btn_more"
+        android:gravity="center_vertical"
+        android:drawableLeft="@mipmap/edit"/>
 
 
 </RelativeLayout>

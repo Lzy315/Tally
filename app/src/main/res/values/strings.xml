@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">简约记账本</string>
+    <string name="editone">记一笔...</string>
 </resources>
